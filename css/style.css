@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'Roboto', serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: #6b0505;
+}
+
+section {
+   padding: 20px;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    color: #02234f;
+}
+
+.promo__information{
+    padding-top: 20px;
+}
+
+.promo__photo{
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.promo__signature {
+    font-weight: 700;
+    text-align: center;
+}
+
+.contacts__block a {
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+.title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #02234f;
+}
+
+.list__item-title{
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.skilss__list-item {
+    margin-bottom: 20px;
+}
+
+.example__block code{
+    font-size: 16px;
+    line-height: 21px;
+}
+.education__list-item{
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: right;
+}
