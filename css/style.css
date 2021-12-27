@@ -46,6 +46,10 @@ h1 {
     color: #02234f;
 }
 
+.promo__information{
+    padding-top: 20px;
+}
+
 .promo__photo{
     display: block;
     width: 400px;
