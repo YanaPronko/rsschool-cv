@@ -139,14 +139,14 @@
                   sortArr(films);
                   films.forEach((item, i) =&gt; {
                       parent.innerHTML += &#x60;&lt;li class=&quot;promo__interactive-item&quot;&gt;${i + 1} ${item}
-                                              &lt;div class=&quot;delete&quot;&gt;&lt;/div&gt; 
+                                              &lt;div class=&quot;delete&quot;&gt;&lt;/div&gt;
                                               &lt;/li&gt;&#x60;;
                   });
                   document.querySelectorAll(&quot;.delete&quot;).forEach((btn, i) =&gt; {
                       btn.addEventListener(&quot;click&quot;, () =&gt; {
                           btn.parentElement.remove();
                           movieDB.movies.splice(i, 1);
-          
+
                           createMovieList(films, parent);
                       });
                   });
