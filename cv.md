@@ -1,5 +1,5 @@
 # Yana Pronko CV
-![My photo](img/main_foto.jpg)
+![My photo](assets/img/main_foto.jpg)
 ## Yana Pronko
 
 ### Contacts:
